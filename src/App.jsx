@@ -19,15 +19,17 @@ function App() {
               <form>
                 <div className="form-group">
                   <label htmlFor="email">Email address</label>
-                  <input type="email" className="form-control" id="email" aria-describedby="emailHelp" />
+                  <input type="email" className="form-control" placeholder ="Email address or phone number" id="email" aria-describedby="emailHelp" />
                 </div>
                 <div className="form-group">
                   <label htmlFor="password">Password</label>
-                  <input type="password" className="form-control" id="password" />
+                  <input type="password"placeholder='Password' className="form-control" id="password" />
                 </div>
-                <button type="submit" className="btn btn-primary">Login</button>
+                <button type="submit" className="btn btn-primary">Log in</button>
               </form>
-              <p className="mt-3">Don't have an account? <a href="#">Sign up</a></p>
+              <p className="mt-3">Forgotten account? </p>
+              <hr />or <br />
+              <button type="button" class="btn btn-success">Success</button>
             </div>
           </div>
         </div>
