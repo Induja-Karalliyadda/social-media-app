@@ -29,7 +29,7 @@ function App() {
               </form>
               <p className="mt-3">Forgotten account? </p>
               <hr />or <br />
-              <button type="button" class="btn btn-success">Success</button>
+              <button type="button" class="btn btn-success">Create new account</button>
             </div>
           </div>
         </div>
